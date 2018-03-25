@@ -8,7 +8,7 @@ The files are used to obtain parts per million (ppm) of the Carbon Monoxide gas 
   
   The following involves the basic connection of MQ7 and Arduino board and the use of this library.
 
-  1. Connect the Vcc and GND pins of the MQ7 sensor to the Arduino 5v and GND pi respectively.
+  1. Connect the Vcc and GND pins of the MQ7 sensor to the Arduino 5v and GND pin respectively.
   2. Wire the A0 (analog pin) of MQ7 sensor to any analog pin on the Arduino board.
   3. Make sure the load resistance of the MQ7 is 10k ohm. _(In the MQ7 board make sure the potentiometer measures 10k ohm)_.
   5. [Download](https://www.arduino.cc/en/Main/Software) Arduino Software.
