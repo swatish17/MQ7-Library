@@ -34,7 +34,7 @@ class MQ7 {
 		float voltageConversion(int);
 	public:
 		MQ7(uint8_t, float);
-		int getPPM();
+		float getPPM();
 		float getSensorResistance();
 		float getRatio();
 };
