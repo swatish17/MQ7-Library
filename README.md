@@ -21,6 +21,6 @@ The files are used to obtain parts per million (ppm) of the Carbon Monoxide gas 
   2. Initialize the sensor object
   > _**MQ7 mq7(A0, 5.0);** // param[1] : Analog pin number, param[2] : Sensor Vcc value_
   3. To find the ppm
-  > _**int ppm = mq7.getPPM();**_
+  > _**float ppm = mq7.getPPM();**_
 
   This library can be used on any Arduino or ESP boards. Just vary the param[2] based on the Vcc.
