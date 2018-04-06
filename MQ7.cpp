@@ -31,7 +31,7 @@ by using the parameter found using the function f(x) = a * ((Rs/R0) ^ b)
 @return ppm value of Carbon Monoxide concentration
 */
 float MQ7::getPPM(){
-  return (coefficient_A * pow(getRatio(), coefficient_B));
+  return (float)(coefficient_A * pow(getRatio(), coefficient_B));
 }
 
 /*
