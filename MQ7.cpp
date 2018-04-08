@@ -49,7 +49,7 @@ float MQ7::voltageConversion(int value){
 /*
 This function is for the deriving the Rs/R0 to find ppm
 
-@return The value of Rs/R0
+@return The value of Rs/R_Load
 */
 float MQ7::getRatio(){
   int value = analogRead(analogPin);
